@@ -1,7 +1,98 @@
 body {
 	font-family: 'Average Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 14px;
-	color: #333;
+	font-size: 20px;
+	color: #222;
 	background-color: #fff;
   }
+
+.hidden
+{
+	display: none;
+}
+
+.mainHeader
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+#logo
+{
+	display: inline-block;
+	background-color: black;
+	height: 64px;
+	width: 160px;
+	text-align: center;
+}
+
+#mainNav
+{
+	display: inline-block;
+	background-color: black;
+	height: 64px;
+	width: 600px;
+	text-align: center;
+	margin-left: 40px;
+}
+
+.banner
+{
+	display: flex;
+	background-color: black;
+	height: 210px;
+	width: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+.banner
+{
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+.promoText
+{
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+.promoImage
+{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	text-align: center;
+	justify-content: center;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width:1000px;
+	height:200px;
+}
+
+#bottomTabs
+{
+	display: flex
+	background-color: black;
+	text-align: center;
+	margin: auto;
+	width:300px;
+	height:200px;
+}
+
+.infoTab
+{
+	display: flex;
+}
